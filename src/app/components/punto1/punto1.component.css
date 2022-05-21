@@ -1,0 +1,72 @@
+header{
+    background-color: greenyellow;
+}
+
+.footer1{
+    text-align: right;
+}
+
+.t1,.t2,.t3{
+    font-size: 140px;
+    text-align: center;
+}
+
+.col-md-4{
+    border-style: solid;
+    border-color: black;
+}
+
+.col-md-6{
+    border-style: solid;
+}
+
+@media(max-width: 1366px){
+    header{
+        background-color: greenyellow;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+    header{
+        background-color: aqua;
+    }
+
+    .footer1{
+        text-align: center;
+    }
+
+    .footer2{
+        text-align: center;
+    }
+    
+    .t1{
+        text-align: left;
+    }
+
+    .t2{
+        text-align: right;
+    }
+}
+
+@media(max-width: 575px){
+    header{
+        background-color: orange;
+        text-align: center;
+    }
+
+    .footer1{
+        text-align: center;
+    }
+
+    .footer2{
+        text-align: center;
+    }
+
+    .t1{
+        text-align: left;
+    }
+
+    .t3{
+        text-align: right;
+    }
+}

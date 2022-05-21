@@ -1,0 +1,52 @@
+/*Diseño para los inpunts*/
+.cuadro-texto{
+ 
+    width: 68%;
+    height: 200px;
+    border-radius: 25px;
+    border-color: gray;
+    background-color: lightgrey;
+}
+/*Fin*/
+
+/*Diseño para los botones*/
+.btn_t{
+    margin-top: 10px;
+    width: 68%;
+}
+
+.btn_copy{
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.btn_clean{
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.btn_exit{
+    border: none;
+    background-color: white;
+    color: blue;
+}
+/*Fin*/
+
+/*Tamaño de los iconos*/
+.material-icons.md-36{
+    /*En esta seccion cambio el tamaño de los iconos*/
+   font-size: 30px;
+}
+/*Fin*/
+
+.band{
+    width: 30px;
+    height: 25px;
+}
+
+.botones{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
